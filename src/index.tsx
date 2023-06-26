@@ -7,6 +7,7 @@ import Optional from "./components/Optional";
 import UrlSearchParams from "./components/UrlSearchParams";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import CharCount from "./components/CharCount";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "url-search-params",
     element: <UrlSearchParams />,
+  },
+  {
+    path: "char-count",
+    element: <CharCount />,
   },
 ]);
 

@@ -31,6 +31,7 @@ const Home = () => {
         <Section href="array-flatten" text="Array flatten" />
         <Section href="optional" text="TS - Optional" />
         <Section href="url-search-params" text="UrlSearchParams" />
+        <Section href="char-count" text="Char count" />
       </Inner>
     </Wrapper>
   );
