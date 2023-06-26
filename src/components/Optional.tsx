@@ -1,15 +1,8 @@
-import React, { useEffect } from "react";
-import "highlight.js/styles/github-dark.css";
-import hl from "highlight.js";
 import Code from "./Code";
 import Back from "./Back";
 import Description from "./Description";
 
 const Optional = () => {
-  useEffect(() => {
-    hl.highlightAll();
-  }, []);
-
   const code1 = `
     type Article = {
       author: string;

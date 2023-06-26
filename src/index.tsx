@@ -4,6 +4,7 @@ import "./index.css";
 import Home from "./components/Home";
 import ArrayFlatten from "./components/ArrayFlatten";
 import Optional from "./components/Optional";
+import UrlSearchParams from "./components/UrlSearchParams";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "optional",
     element: <Optional />,
+  },
+  {
+    path: "url-search-params",
+    element: <UrlSearchParams />,
   },
 ]);
 
