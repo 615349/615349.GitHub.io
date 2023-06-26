@@ -20,6 +20,7 @@ const Home = () => {
     <Wrapper>
       <Inner>
         <Section href="array-flatten" text="Array flatten" />
+        <Section href='optional' text='TS - Optional' />
       </Inner>
     </Wrapper>
   );

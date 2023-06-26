@@ -9,7 +9,7 @@ const ArrayFlatten = () => {
     hl.highlightAll();
   }, []);
 
-  const codeStr = `
+  const code = `
     const arr = [1, 2, 3, [4, 5, [6, 8], 9]];
     arr.flat(Infinity); // [1, 2, 3, 4, 5, 6, 8, 9]
   `;
@@ -17,7 +17,7 @@ const ArrayFlatten = () => {
   return (
     <>
       <Back />
-      <Code codeStr={codeStr} />
+      <Code code={code} />
     </>
   );
 };

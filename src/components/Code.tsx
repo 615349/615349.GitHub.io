@@ -4,11 +4,11 @@ import hl from "highlight.js";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 `;
 
-const Code = ({ codeStr }: { codeStr: string }) => {
+const Code = ({ code }: { code: string }) => {
   useEffect(() => {
     hl.highlightAll();
   }, []);
@@ -16,7 +16,7 @@ const Code = ({ codeStr }: { codeStr: string }) => {
   return (
     <Wrapper>
       <pre>
-        <code className="language-ts">{codeStr}</code>
+        <code className="language-ts">{code}</code>
       </pre>
     </Wrapper>
   );
