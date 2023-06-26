@@ -8,6 +8,10 @@ import UrlSearchParams from "./components/UrlSearchParams";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import CharCount from "./components/CharCount";
+import Stack from "./components/Stack";
+import FilterEmpty from "./components/FilterEmpty";
+import FetchTimeout from "./components/FetchTimeout";
+import Queue from "./components/Queue";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +33,22 @@ const router = createBrowserRouter([
   {
     path: "char-count",
     element: <CharCount />,
+  },
+  {
+    path: "stack",
+    element: <Stack />,
+  },
+  {
+    path: "queue",
+    element: <Queue />,
+  },
+  {
+    path: "filter-empty",
+    element: <FilterEmpty />,
+  },
+  {
+    path: "fetch-timeout",
+    element: <FetchTimeout />,
   },
 ]);
 

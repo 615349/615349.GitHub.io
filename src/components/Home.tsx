@@ -10,8 +10,9 @@ const Wrapper = styled.div`
 const Inner = styled.div`
   max-width: 990px;
   display: flex;
-  gap: 30px;
   margin: 30px auto;
+  flex-wrap: wrap;
+  gap: 6px;
 `;
 
 const Name = styled.div`
@@ -32,6 +33,10 @@ const Home = () => {
         <Section href="optional" text="TS - Optional" />
         <Section href="url-search-params" text="UrlSearchParams" />
         <Section href="char-count" text="Char count" />
+        <Section href="stack" text="Stack" />
+        <Section href="queue" text="Queue" />
+        <Section href="filter-empty" text="Filter empty" />
+        <Section href="fetch-timeout" text="Fetch timeout" />
       </Inner>
     </Wrapper>
   );
