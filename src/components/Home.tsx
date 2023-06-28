@@ -33,6 +33,10 @@ const Home = () => {
   return (
     <Wrapper>
       <Name>Ben's code sharing</Name>
+      <Title>CSS</Title>
+      <Inner>
+        <Section href="burger-menu" text="Burger menu" />
+      </Inner>
       <Title>Snippets</Title>
       <Inner>
         <Section href="array-flatten" text="Array flatten" />

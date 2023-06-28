@@ -4,7 +4,7 @@ import hl from "highlight.js";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  max-width: 800px;
+  max-width: 990px;
   margin: 0 auto;
 `;
 

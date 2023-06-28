@@ -1,13 +1,19 @@
 import styled from "styled-components";
 
 import { Link } from "react-router-dom";
-const Wrapper = styled.div`
+
+type BackType = {
+  bottom?: number;
+};
+
+const Wrapper = styled.div<{ bottom?: number }>`
   height: 64px;
   display: flex;
   align-items: center;
   background-color: rgb(244, 244, 244);
   border-top: 1px solid rgb(204, 204, 204);
   border-bottom: 1px solid rgb(204, 204, 204);
+  margin-bottom: ${({ bottom }) => bottom ?? 0}px;
 
   a {
     font-size: 18px;
@@ -16,9 +22,9 @@ const Wrapper = styled.div`
   }
 `;
 
-const Back = () => {
+const Back = ({ bottom }: BackType) => {
   return (
-    <Wrapper>
+    <Wrapper bottom={bottom}>
       <Link to="/">&lt; Back</Link>
     </Wrapper>
   );

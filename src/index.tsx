@@ -12,6 +12,7 @@ import Stack from "./components/Algorithm/Stack";
 import FilterEmpty from "./components/Snippets/FilterEmpty";
 import FetchTimeout from "./components/Snippets/FetchTimeout";
 import Queue from "./components/Algorithm/Queue";
+import BurgerMenu from "./components/CSS/BurgerMenu";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: "fetch-timeout",
     element: <FetchTimeout />,
+  },
+  {
+    path: "burger-menu",
+    element: <BurgerMenu />,
   },
 ]);
 
