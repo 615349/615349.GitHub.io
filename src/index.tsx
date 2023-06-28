@@ -2,16 +2,16 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import Home from "./components/Home";
-import ArrayFlatten from "./components/ArrayFlatten";
-import Optional from "./components/Optional";
-import UrlSearchParams from "./components/UrlSearchParams";
+import ArrayFlatten from "./components/Snippets/ArrayFlatten";
+import Optional from "./components/TS/Optional";
+import UrlSearchParams from "./components/Snippets/UrlSearchParams";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import CharCount from "./components/CharCount";
-import Stack from "./components/Stack";
-import FilterEmpty from "./components/FilterEmpty";
-import FetchTimeout from "./components/FetchTimeout";
-import Queue from "./components/Queue";
+import CharCount from "./components/Snippets/CharCount";
+import Stack from "./components/Algorithm/Stack";
+import FilterEmpty from "./components/Snippets/FilterEmpty";
+import FetchTimeout from "./components/Snippets/FetchTimeout";
+import Queue from "./components/Algorithm/Queue";
 
 const router = createBrowserRouter([
   {

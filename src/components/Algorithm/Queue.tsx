@@ -1,5 +1,5 @@
-import Code from "./Code";
-import Back from "./Back";
+import Code from "../Code";
+import Back from "../Back";
 
 const Queue = () => {
   const code = `
