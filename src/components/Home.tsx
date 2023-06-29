@@ -32,10 +32,11 @@ const Home = () => {
   return (
     <Wrapper>
       <Name>Ben's code sharing</Name>
-      <Title>CSS</Title>
+      <Title>CSS - a language you'll never master</Title>
       <Inner>
         <Section href="burger-menu" text="Burger menu" />
         <Section href="spot-light" text="Spot light" />
+        <Section href="underline" text="Underline" />
       </Inner>
       <Title>Snippets</Title>
       <Inner>

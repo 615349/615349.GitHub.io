@@ -14,6 +14,7 @@ import FetchTimeout from "./components/Snippets/FetchTimeout";
 import Queue from "./components/Algorithm/Queue";
 import BurgerMenu from "./components/CSS/BurgerMenu";
 import SpotLight from "./components/CSS/SpotLight";
+import Underline from "./components/CSS/Underline";
 
 const router = createBrowserRouter([
   {
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
   {
     path: "spot-light",
     element: <SpotLight />,
+  },
+  {
+    path: "underline",
+    element: <Underline />,
   },
 ]);
 
