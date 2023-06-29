@@ -3,8 +3,7 @@ import Section from "./Section";
 
 const Wrapper = styled.div`
   background-color: #f5f5f5;
-  width: 100vw;
-  height: 100vh;
+  padding-bottom: 100px;
 `;
 
 const Inner = styled.div`
