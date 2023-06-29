@@ -13,6 +13,7 @@ import FilterEmpty from "./components/Snippets/FilterEmpty";
 import FetchTimeout from "./components/Snippets/FetchTimeout";
 import Queue from "./components/Algorithm/Queue";
 import BurgerMenu from "./components/CSS/BurgerMenu";
+import SpotLight from "./components/CSS/SpotLight";
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: "burger-menu",
     element: <BurgerMenu />,
+  },
+  {
+    path: "spot-light",
+    element: <SpotLight />,
   },
 ]);
 

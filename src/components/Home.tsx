@@ -35,6 +35,7 @@ const Home = () => {
       <Title>CSS</Title>
       <Inner>
         <Section href="burger-menu" text="Burger menu" />
+        <Section href="spot-light" text="Spot light" />
       </Inner>
       <Title>Snippets</Title>
       <Inner>
