@@ -17,6 +17,8 @@ import SpotLight from "./components/CSS/SpotLight";
 import Underline from "./components/CSS/Underline";
 import Blur from "./components/CSS/Blur";
 import RandomID from "./components/Snippets/RandomID";
+import AddProperty from "./components/Snippets/AddProperty";
+import DeepClone from "./components/Snippets/DeepClone";
 
 const router = createBrowserRouter([
   {
@@ -74,6 +76,14 @@ const router = createBrowserRouter([
   {
     path: "random-id",
     element: <RandomID />,
+  },
+  {
+    path: "add-property",
+    element: <AddProperty />,
+  },
+  {
+    path: "deep-clone",
+    element: <DeepClone />,
   },
 ]);
 

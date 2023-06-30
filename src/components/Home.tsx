@@ -47,6 +47,8 @@ const Home = () => {
         <Section href="filter-empty" text="Filter empty" />
         <Section href="fetch-timeout" text="Fetch timeout" />
         <Section href="random-id" text="Random ID" />
+        <Section href="add-property" text="Object add property" />
+        <Section href="deep-clone" text="Deep clone" />
       </Inner>
       <Title>TypeScript</Title>
       <Inner>
