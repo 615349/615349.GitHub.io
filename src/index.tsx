@@ -16,6 +16,7 @@ import BurgerMenu from "./components/CSS/BurgerMenu";
 import SpotLight from "./components/CSS/SpotLight";
 import Underline from "./components/CSS/Underline";
 import Blur from "./components/CSS/Blur";
+import RandomID from "./components/Snippets/RandomID";
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
   {
     path: "blur",
     element: <Blur />,
+  },
+  {
+    path: "random-id",
+    element: <RandomID />,
   },
 ]);
 

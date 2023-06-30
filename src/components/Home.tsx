@@ -46,6 +46,7 @@ const Home = () => {
         <Section href="char-count" text="Char count" />
         <Section href="filter-empty" text="Filter empty" />
         <Section href="fetch-timeout" text="Fetch timeout" />
+        <Section href="random-id" text="Random ID" />
       </Inner>
       <Title>TypeScript</Title>
       <Inner>
