@@ -1,38 +1,34 @@
 import Template from "../Template";
 
-const Stack = () => {
-  const code = `
-    class Stack {
-      array: Array<number> = [];
+const code = `
+  class Stack {
+    array: Array<number> = [];
 
-      push(element: number) {
-        this.array.push(element);
-      }
-
-      pop() {
-        this.array.pop();
-      }
-
-      clear() {
-        this.array = [];
-      }
-
-      get getArray() {
-        return this.array;
-      }
+    push(element: number) {
+      this.array.push(element);
     }
 
-    const stack = new Stack();
-    stack.push(5);
-    stack.push(6);
-    stack.pop();
+    pop() {
+      this.array.pop();
+    }
 
-    console.log(stack.getArray) // [5]
-  `;
+    clear() {
+      this.array = [];
+    }
 
-  return (
-    <Template code={code} />
-  );
-};
+    get getArray() {
+      return this.array;
+    }
+  }
 
-export default Stack;
+  const stack = new Stack();
+  stack.push(5);
+  stack.push(6);
+  stack.pop();
+
+  console.log(stack.getArray) // [5]
+`;
+
+export default function Stack() {
+  return <Template code={code} />;
+}

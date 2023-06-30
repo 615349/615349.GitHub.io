@@ -21,6 +21,7 @@ import DeepClone from "./components/Snippets/DeepClone";
 import ValueOf from "./components/Snippets/ValueOf";
 import Iterator from "./components/Snippets/Iterator";
 import VisibilityChange from "./components/Snippets/VisibilityChange";
+import BigSum from "./components/Algorithm/BigSum";
 
 const router = createBrowserRouter([
   {
@@ -98,6 +99,10 @@ const router = createBrowserRouter([
   {
     path: "visibility-change",
     element: <VisibilityChange />,
+  },
+  {
+    path: "big-sum",
+    element: <BigSum />,
   },
 ]);
 

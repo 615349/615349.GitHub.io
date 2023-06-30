@@ -61,6 +61,7 @@ const Home = () => {
       <Inner>
         <Section href="stack" text="Stack" />
         <Section href="queue" text="Queue" />
+        <Section href="big-sum" text="Big sum" />
       </Inner>
     </Wrapper>
   );
