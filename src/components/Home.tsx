@@ -51,6 +51,7 @@ const Home = () => {
         <Section href="deep-clone" text="Deep clone" />
         <Section href="value-of" text="Value of" />
         <Section href="iterator" text="Iterator" />
+        <Section href="visibility-change" text="Visibility change" />
       </Inner>
       <Title>TypeScript</Title>
       <Inner>

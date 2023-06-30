@@ -20,6 +20,7 @@ import AddProperty from "./components/Snippets/AddProperty";
 import DeepClone from "./components/Snippets/DeepClone";
 import ValueOf from "./components/Snippets/ValueOf";
 import Iterator from "./components/Snippets/Iterator";
+import VisibilityChange from "./components/Snippets/VisibilityChange";
 
 const router = createBrowserRouter([
   {
@@ -93,6 +94,10 @@ const router = createBrowserRouter([
   {
     path: "iterator",
     element: <Iterator />,
+  },
+  {
+    path: "visibility-change",
+    element: <VisibilityChange />,
   },
 ]);
 
