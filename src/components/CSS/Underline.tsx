@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import Code from "../Code";
-import Back from "../Back";
+import Template from "../Template";
 
 const Wrapper = styled.div`
   max-width: 990px;
@@ -51,8 +50,7 @@ const code = `
 
 export default function Underline() {
   return (
-    <>
-      <Back bottom={30} />
+    <Template code={code}>
       <Wrapper>
         <Title>
           <Span>
@@ -60,7 +58,6 @@ export default function Underline() {
           </Span>
         </Title>
       </Wrapper>
-      <Code code={code} />
-    </>
+    </Template>
   );
 }

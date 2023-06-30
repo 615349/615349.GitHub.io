@@ -1,5 +1,4 @@
-import Code from "../Code";
-import Back from "../Back";
+import Template from "../Template";
 
 const CharCount = () => {
   const code = `
@@ -10,12 +9,7 @@ const CharCount = () => {
     charCount(str, char)
   `;
 
-  return (
-    <>
-      <Back />
-      <Code code={code} />
-    </>
-  );
+  return <Template code={code} />;
 };
 
 export default CharCount;

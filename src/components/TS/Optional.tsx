@@ -1,6 +1,6 @@
-import Code from "../Code";
-import Back from "../Back";
-import Description from "../Description";
+import Template from "../Template";
+import Code from "../Template/Code";
+import Description from "../Template/Description";
 
 const Optional = () => {
   const code1 = `
@@ -29,8 +29,7 @@ const Optional = () => {
   `;
 
   return (
-    <>
-      <Back />
+    <Template>
       <Code code={code1} />
       <Description>
         If we already have one type as above, and now we need to have a new type
@@ -40,7 +39,7 @@ const Optional = () => {
       <Description>To implement that, we can do following</Description>
       <Code code={code3} />
       <Description>{description}</Description>
-    </>
+    </Template>
   );
 };
 

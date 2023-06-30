@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import Code from "../Code";
-import Back from "../Back";
+import Template from "../Template";
 
 const Wrapper = styled.div`
   max-width: 990px;
@@ -83,16 +82,14 @@ const code = `
 
 export default function BurgerMenu() {
   return (
-    <Wrapper>
-      <Back bottom={30} />
-
-      <Menu>
-        <Bar className="top" />
-        <Bar className="middle" />
-        <Bar className="bottom" />
-      </Menu>
-
-      <Code code={code} />
-    </Wrapper>
+    <Template code={code}>
+      <Wrapper>
+        <Menu>
+          <Bar className="top" />
+          <Bar className="middle" />
+          <Bar className="bottom" />
+        </Menu>
+      </Wrapper>
+    </Template>
   );
 }

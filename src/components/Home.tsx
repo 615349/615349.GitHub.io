@@ -37,6 +37,7 @@ const Home = () => {
         <Section href="burger-menu" text="Burger menu" />
         <Section href="spot-light" text="Spot light" />
         <Section href="underline" text="Underline" />
+        <Section href="blur" text="Blur" />
       </Inner>
       <Title>Snippets</Title>
       <Inner>

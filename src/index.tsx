@@ -15,6 +15,7 @@ import Queue from "./components/Algorithm/Queue";
 import BurgerMenu from "./components/CSS/BurgerMenu";
 import SpotLight from "./components/CSS/SpotLight";
 import Underline from "./components/CSS/Underline";
+import Blur from "./components/CSS/Blur";
 
 const router = createBrowserRouter([
   {
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
   {
     path: "underline",
     element: <Underline />,
+  },
+  {
+    path: "blur",
+    element: <Blur />,
   },
 ]);
 

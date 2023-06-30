@@ -1,6 +1,5 @@
-import Code from "../Code";
-import Back from "../Back";
-import Description from "../Description";
+import Template from "../Template";
+import Description from "../Template/Description";
 
 const FilterEmpty = () => {
   const code = `
@@ -10,16 +9,14 @@ const FilterEmpty = () => {
   `;
 
   return (
-    <>
-      <Back />
-      <Code code={code} />
+    <Template code={code}>
       <Description>
         The filter(Boolean) step does the following: 1, Passes each item in the
         array to the Boolean() object 2, The Boolean() object coerces each item
         to true or false depending on whether it's truthy or falsy 3, If the
         item is truthy, we keep it
       </Description>
-    </>
+    </Template>
   );
 };
 

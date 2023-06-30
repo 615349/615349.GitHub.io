@@ -1,5 +1,4 @@
-import Code from "../Code";
-import Back from "../Back";
+import Template from "../Template";
 
 const UrlSearchParams = () => {
   const code = `
@@ -23,12 +22,7 @@ const UrlSearchParams = () => {
         .join('&');
   `;
 
-  return (
-    <>
-      <Back />
-      <Code code={code} />
-    </>
-  );
+  return <Template code={code} />;
 };
 
 export default UrlSearchParams;

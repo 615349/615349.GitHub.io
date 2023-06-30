@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import Code from "../Code";
-import Back from "../Back";
+import Template from "../Template";
 
 const Wrapper = styled.div`
   background-color: grey;
@@ -75,12 +74,10 @@ export default function App() {
 const title = "Hello World";
 export default function SpotLight() {
   return (
-    <>
-      <Back bottom={30} />
+    <Template code={code}>
       <Wrapper>
         <H1 title={title}>{title}</H1>
       </Wrapper>
-      <Code code={code} />
-    </>
+    </Template>
   );
 }

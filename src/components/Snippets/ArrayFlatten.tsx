@@ -1,5 +1,4 @@
-import Code from "../Code";
-import Back from "../Back";
+import Template from "../Template";
 
 const ArrayFlatten = () => {
   const code = `
@@ -7,12 +6,7 @@ const ArrayFlatten = () => {
     arr.flat(Infinity); // [1, 2, 3, 4, 5, 6, 8, 9]
   `;
 
-  return (
-    <>
-      <Back />
-      <Code code={code} />
-    </>
-  );
+  return <Template code={code} />;
 };
 
 export default ArrayFlatten;

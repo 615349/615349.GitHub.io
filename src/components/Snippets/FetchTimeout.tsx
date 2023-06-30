@@ -1,5 +1,4 @@
-import Code from "../Code";
-import Back from "../Back";
+import Template from "../Template";
 
 const FetchTimeout = () => {
   const code = `
@@ -19,10 +18,7 @@ const FetchTimeout = () => {
   `;
 
   return (
-    <>
-      <Back />
-      <Code code={code} />
-    </>
+    <Template code={code} />
   );
 };
 
