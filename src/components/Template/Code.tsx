@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "highlight.js/styles/github-dark.css";
+import "highlight.js/styles/github-dark-dimmed.css";
 import hl from "highlight.js";
 import styled from "styled-components";
 

@@ -49,6 +49,7 @@ const Home = () => {
         <Section href="random-id" text="Random ID" />
         <Section href="add-property" text="Object add property" />
         <Section href="deep-clone" text="Deep clone" />
+        <Section href="value-of" text="Value of" />
       </Inner>
       <Title>TypeScript</Title>
       <Inner>

@@ -19,6 +19,7 @@ import Blur from "./components/CSS/Blur";
 import RandomID from "./components/Snippets/RandomID";
 import AddProperty from "./components/Snippets/AddProperty";
 import DeepClone from "./components/Snippets/DeepClone";
+import ValueOf from "./components/Snippets/ValueOf";
 
 const router = createBrowserRouter([
   {
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
   {
     path: "deep-clone",
     element: <DeepClone />,
+  },
+  {
+    path: "value-of",
+    element: <ValueOf />,
   },
 ]);
 
