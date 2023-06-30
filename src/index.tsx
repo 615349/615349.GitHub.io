@@ -22,6 +22,7 @@ import ValueOf from "./components/Snippets/ValueOf";
 import Iterator from "./components/Snippets/Iterator";
 import VisibilityChange from "./components/Snippets/VisibilityChange";
 import BigSum from "./components/Algorithm/BigSum";
+import InputShake from "./components/CSS/InputShake";
 
 const router = createBrowserRouter([
   {
@@ -103,6 +104,10 @@ const router = createBrowserRouter([
   {
     path: "big-sum",
     element: <BigSum />,
+  },
+  {
+    path: "input-shake",
+    element: <InputShake />,
   },
 ]);
 

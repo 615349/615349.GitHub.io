@@ -38,6 +38,7 @@ const Home = () => {
         <Section href="spot-light" text="Spot light" />
         <Section href="underline" text="Underline" />
         <Section href="blur" text="Blur" />
+        <Section href="input-shake" text="Input shake" />
       </Inner>
       <Title>Snippets</Title>
       <Inner>
