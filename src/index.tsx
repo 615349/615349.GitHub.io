@@ -1,4 +1,3 @@
-import React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import Home from "./components/Home";
@@ -20,6 +19,7 @@ import RandomID from "./components/Snippets/RandomID";
 import AddProperty from "./components/Snippets/AddProperty";
 import DeepClone from "./components/Snippets/DeepClone";
 import ValueOf from "./components/Snippets/ValueOf";
+import Iterator from "./components/Snippets/Iterator";
 
 const router = createBrowserRouter([
   {
@@ -89,6 +89,10 @@ const router = createBrowserRouter([
   {
     path: "value-of",
     element: <ValueOf />,
+  },
+  {
+    path: "iterator",
+    element: <Iterator />,
   },
 ]);
 
