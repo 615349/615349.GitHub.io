@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "highlight.js/styles/github-dark.css";
 import hl from "highlight.js";
 import styled from "styled-components";
