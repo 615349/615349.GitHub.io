@@ -53,6 +53,10 @@ const Home = () => {
         <Section href="value-of" text="Value of" />
         <Section href="iterator" text="Iterator" />
         <Section href="visibility-change" text="Visibility change" />
+        <Section href="chatgpt-style" text="ChatGPT style" />
+        <Section href="for-forEach" text="For vs ForEach" />
+        <Section href="json-stringify" text="JSON stringify" />
+        <Section href="sequence-requests" text="Sequence requests" />
       </Inner>
       <Title>TypeScript</Title>
       <Inner>

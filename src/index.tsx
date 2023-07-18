@@ -23,6 +23,10 @@ import Iterator from "./components/Snippets/Iterator";
 import VisibilityChange from "./components/Snippets/VisibilityChange";
 import BigSum from "./components/Algorithm/BigSum";
 import InputShake from "./components/CSS/InputShake";
+import ChatGPT from "./components/Snippets/ChatGPT";
+import ForForEach from './components/Snippets/ForForEach';
+import JsonStringify from "./components/Snippets/JsonStringify";
+import SequenceRequests from './components/Snippets/SequenceRequests'
 
 const router = createBrowserRouter([
   {
@@ -109,6 +113,22 @@ const router = createBrowserRouter([
     path: "input-shake",
     element: <InputShake />,
   },
+  {
+    path: "chatgpt-style",
+    element: <ChatGPT />,
+  },
+  {
+    path: "for-forEach",
+    element: <ForForEach />,
+  },
+  {
+    path: "json-stringify",
+    element: <JsonStringify />
+  },
+  {
+    path: "sequence-requests",
+    element: <SequenceRequests />
+  }
 ]);
 
 createRoot(document.getElementById("root") as HTMLElement).render(
